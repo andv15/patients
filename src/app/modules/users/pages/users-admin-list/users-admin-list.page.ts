@@ -10,7 +10,6 @@ import "rxjs";
 })
 export class UsersAdminListPage implements OnInit {
   users: User[];
-  name;
   constructor(private usersService: UsersService) {}
 
   ngOnInit() {
