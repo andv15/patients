@@ -12,6 +12,7 @@ export class UsersAdminListPage implements OnInit {
   users: User[];
 
   name;
+  item;
   constructor(private usersService: UsersService) {}
 
   ngOnInit() {
