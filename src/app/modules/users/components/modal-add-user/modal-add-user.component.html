@@ -1,0 +1,19 @@
+<ng-template #reference>
+  <div class="modal-content">
+    <div class="modal-header addClinicianHeader">
+      <span class="addClinicianTitle"> User title</span>
+      <span class="closeButton pull-right" (click)="onCancelClicked()"
+        ><em class="fa fa-times"></em
+      ></span>
+    </div>
+
+    <div class="modal-body"></div>
+
+    <div class="modal-footer">
+      <button class="btn" [title]="cancel" (click)="onCancelClicked()"></button>
+      <button class="btn" value="openModal" (click)="openModal()"></button>
+    </div>
+  </div>
+</ng-template>
+
+<button class="btn" [title]="'title'" (click)="openModal()">Open modal</button>

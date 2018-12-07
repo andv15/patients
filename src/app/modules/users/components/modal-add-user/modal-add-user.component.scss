@@ -1,0 +1,20 @@
+.addClinicianHeader {
+  padding-left: 24px !important;
+  padding-bottom: 20px !important;
+
+  .addClinicianTitle {
+    color: #051332;
+    font-family: Graphik, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+  }
+
+  .closeButton {
+    margin-top: -10px;
+    cursor: pointer;
+    font-size: 26px;
+
+    em {
+      -webkit-text-stroke: 3px white;
+    }
+  }
+}

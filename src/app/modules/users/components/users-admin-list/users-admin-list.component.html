@@ -1,5 +1,9 @@
 <div>
   <ul>
-    <li *ngFor="let user of users">{{ user.name }} {{ user.id }}</li>
+    <li *ngFor="let user of users">
+      <app-user-entry [user]="user"></app-user-entry>
+    </li>
   </ul>
 </div>
+
+<modal-add-user-component #modalAddUser></modal-add-user-component>
